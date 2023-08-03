@@ -1,5 +1,8 @@
 ﻿using ScreenSound.Modelos;
 using ScreenSound.Menus;
+using OpenAI_API;
+
+
 
 Banda ira = new Banda("Ira!");
 ira.AdicionarNota(new Avaliacao(8));
@@ -12,7 +15,7 @@ ira.AdicionarNota(new Avaliacao(10));
 
 
 Dictionary<string, Banda> bandasRegistradas = new();
-bandasRegistradas.Add(ira.Nome, ira);
+bandasRegistradas.Add(ira.Nome, ira); 
 bandasRegistradas.Add(beatles.Nome, beatles);
 
 void ExibirLogo()
@@ -65,7 +68,4 @@ void ExibirOpcoesDoMenu()
         Console.WriteLine("Opção inválida");
     } 
 }
-
-ExibirOpcoesDoMenu();
-
-
+// ExibirOpcoesDoMenu();
