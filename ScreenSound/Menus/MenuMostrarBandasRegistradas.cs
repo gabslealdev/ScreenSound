@@ -8,7 +8,7 @@ internal class MenuMostrarBandasRegistradas : Menu
     {
 
         base.Executar(bandasRegistradas);
-        ExibirTituloDaOpcao("Exibindo todas as bandas registradas na nossa aplicação");
+        ExibirTituloDaOpcao("Exibindo todas as bandas registradas em nossa aplicação");
 
         foreach (string banda in bandasRegistradas.Keys)
         {
