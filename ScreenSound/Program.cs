@@ -12,7 +12,11 @@ Banda beatles = new Banda("The Beatles");
 ira.AdicionarNota(new Avaliacao(10));
 ira.AdicionarNota(new Avaliacao(9));
 ira.AdicionarNota(new Avaliacao(10));
-
+Banda cbjr = new Banda("cbjr");
+cbjr.AdicionarNota(new Avaliacao(10));
+cbjr.AdicionarNota(new Avaliacao(10));
+cbjr.AdicionarNota(new Avaliacao(10));
+cbjr.AdicionarAlbum("Imunidade musical");
 
 Dictionary<string, Banda> bandasRegistradas = new();
 bandasRegistradas.Add(ira.Nome, ira); 
